@@ -17,17 +17,22 @@ $styles = [ "styles.css", "ideamenu.css" ]
     <!-- this is just a tag like a <div> (remember, everything is a div: <header>, <footer>, <div>, <span>, <article> ... -->
     <!-- but it's better for SEO (and for you) because it's easy to know what the content will be: Text-->
     <div class="overalldiv">
-        <div class="ideamenu left">
-            <div class="ideamenu top left"><a class="menulink" href="a.html">pip</a></div>
-            <div class="ideamenu middle left"><a class="menulink" href="socialmedia.php">social media</a></div>
-            <div class="ideamenu bottom left"><a class="menulink" href="#">some things</a><div class="ideamenu illustration" > </div></div>
+        <div class="ideabox left">
+            <a class="top left menubox" href="a.html">pip</a>
+            <a class="middle left menubox" href="socialmedia.php">social media</a>
+            <a class="bottom left menubox" href="#">some things</a>
         </div>
 
-        <div class="ideamenu right">
-            <div class="ideamenu top right"><a class="menulink" href="cv.php">CV</a></div>
-            <div class="ideamenu middle right"><a class="menulink" href="#">mood board</a></div>
-            <div class="ideamenu bottom right"><a class="menulink" href="#hello">more things</a></div>
+        <div class="ideabox right">
+            <a class="top right menubox" href="cv.php">CV</a>
+            <a class="middle right menubox" href="#">mood board</a>
+            <a class="bottom right menubox" href="#hello">
+                <div class="ideamenu illustration"> </div>
+                more this
+            </a>
+
         </div>
+    </div>
 
 
     </div>
