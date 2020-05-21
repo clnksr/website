@@ -1,0 +1,47 @@
+.socialmediabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.icon {
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+    background-image: url(../images/facebook.svg)
+}
+
+.instagram {
+    background-image: url(../images/instagram.svg)
+}
+
+.pinterest {
+    background-image: url(../images/pinterest.svg)
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.svg)
+}
+
+.icon .link {
+    opacity: 0;
+}
+
+.icon:hover {
+    background-image: none;
+}
+
+.icon:hover .link {
+    opacity: 1
+}
+
+/*.icon .link:hover {opacity: 1}*/

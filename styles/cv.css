@@ -1,0 +1,71 @@
+:root {
+    --linecolor: #B0B0B0;
+    --boxpadding1: 20px;
+    --linemargin: 40px;
+    --linewidth: calc(var(--linemargin) + var(--boxpadding1) + var(--boxpadding2));
+    --lineposition: calc(-1 * var(--linewidth));
+    --boxpadding2: 10px
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+span.lineyear {
+    background: #eae6df;
+    color: white;
+}
+
+.line {
+    width: 5px;
+    background: var(--linecolor);
+    display: flex;
+    margin: 0 var(--linemargin);
+    align-items: center;
+}
+
+.work:after {
+    right: var(--lineposition);
+    top: 50%;
+    position: absolute;
+}
+
+.education:after {
+    left: var(--lineposition);
+    top: 45%;
+}
+
+
+.work:after,
+.education:after {
+    content: "";
+    width: var(--linewidth);
+    height: 5px;
+    background: var(--linecolor);
+    display: inline-block;
+    position: absolute;
+
+}
+
+.work,
+.education {
+    position: relative;
+    width: 500px;
+    border: 1px solid var(--linecolor);
+    margin: var(--boxpadding2);
+}
+
+
+.educationbox,
+.workbox {
+    margin: var(--boxpadding1);
+
+}

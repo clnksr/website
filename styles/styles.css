@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+    background-color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    /* Otherwise the header doesn't cover the whole width */
+}
+
+header {
+    height: 40px;
+    /* obviously bigger than the font size of the logo... */
+    background-color: #ffffff;
+    color: black;
+    /* this makes the first element all the way to the left and the second element all the way to the right */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*box-shadow: 0px 0px 8px 0px #666;*/
+    /* If you put a third element, like a logo, it will stay right in the center of the website */
+}
+
+#logo {
+    font-size: 27px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    float: left;
+    padding-left: 5px;
+}
+
+
+.menu {
+    float: right;
+    margin: 0;
+    /* otherwise it's not really IN the header */
+}
+
+.menu > li {
+    display: inline;
+    padding-right: 10px;
+    /* space at the RIGHT side of each menu element */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

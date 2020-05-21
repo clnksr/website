@@ -1,0 +1,156 @@
+.overalldiv {
+    height: 100%;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+
+
+    /*background-image: url("/images/celine.png");
+    background-size: cover;
+    background-position: center;*/
+}
+
+
+
+
+.ideamenu div:hover {
+    text-decoration: underline;
+    text-decoration-color: #f5f6fa;
+}
+
+/*.ideamenu {
+    position: absolute;
+}*/
+
+
+.ideamenu.right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-size: 70px
+}
+
+.ideamenu.left {
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size: 70px
+}
+
+
+
+.ideamenu.top.right {
+    background-color: #E4D5C8;
+    display: block;
+    font-family: 'Playfair', serif;
+    font-weight: 400;
+    color: whitesmoke;
+
+    font-size: 200px;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+}
+
+.ideamenu.middle.right {
+    background-color: #6e7376;
+    display: block;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+}
+
+.ideamenu.bottom.right {
+    background-color: #eae6df;
+    display: block;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+}
+
+.ideamenu.top.left {
+    background-image: url("../images/celine.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+}
+
+.ideamenu.middle.left {
+    background-color: #B0B0B0;
+    display: block;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+
+}
+
+.ideamenu.bottom.left {
+    background-color: #dbd4C1;
+    display: block;
+    width: 350px;
+    height: 230px;
+    margin: 30px;
+
+}
+
+.ideamenu.illustration {
+    background-image: url(../images/branches.svg);
+    float: right;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+
+}
+
+.ideamenu div a {
+    padding: 0px;
+}
+
+.ideamenu a:hover {}
+
+/*.ideamenu a:visited {*/
+/*    color: pink;*/
+/*}*/
+
+img.in-text {
+    width: 300px;
+    margin: 15px;
+
+    border-radius: 8px;
+    /* or with "%" like 3%, makes corners rounded */
+}
+
+
+.menulink {
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+/*
+.menulink:visited {
+    color: black;
+    opacity: 0.8;
+}*/
+
+.in-text.right {
+    float: right;
+}
+
+.in-text.left {
+    float: left;
+}
