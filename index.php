@@ -18,15 +18,15 @@ $styles = [ "styles.css", "ideamenu.css" ]
     <!-- but it's better for SEO (and for you) because it's easy to know what the content will be: Text-->
     <div class="overalldiv">
         <div class="ideabox left">
-            <a class="top left menubox" href="a.html">pip</a>
-            <a class="middle left menubox" href="socialmedia.php">social media</a>
-            <a class="bottom left menubox" href="#">some things</a>
+            <a class="top left menubox celine" href="a.html"></a>
+            <a class="un middle left menubox" href="socialmedia.php">social media</a>
+            <a class="un bottom left menubox" href="#">some things</a>
         </div>
 
         <div class="ideabox right">
-            <a class="top right menubox" href="cv.php">CV</a>
-            <a class="middle right menubox" href="#">mood board</a>
-            <a class="bottom right menubox" href="#hello">
+            <a class="un top right menubox" href="cv.php"> CV</a>
+            <a class="un middle right menubox" href="#">mood board</a>
+            <a class="un bottom right menubox" href="#hello">
                 <div class="ideamenu illustration"> </div>
                 more this
             </a>
