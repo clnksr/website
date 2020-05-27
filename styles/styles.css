@@ -12,11 +12,32 @@ body {
     /* Otherwise the header doesn't cover the whole width */
 }
 
+body.dark {
+    background-color: #444444;
+    color: white;
+
+}
+
+a#switch {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: white;
+    border-radius: 100%;
+    width: 45px;
+    cursor: pointer;
+    box-shadow: 0 0 25px 0 white;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    justify-content: center;
+}
+
 header {
     height: 40px;
     /* obviously bigger than the font size of the logo... */
-    background-color: #ffffff;
-    color: black;
+
+
     /* this makes the first element all the way to the left and the second element all the way to the right */
     display: flex;
     align-items: center;
