@@ -4,9 +4,9 @@ body {
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Archivo', sans-serif;
     color: black;
-    background-color: #ffffff;
+    background-color: #F3ECE8;
     font-size: 18px;
     margin: 0;
     transition: 300ms;
@@ -14,7 +14,7 @@ body {
 }
 
 body.dark {
-    background-color: #444444;
+    background-color: #363131;
     color: white;
 }
 
@@ -48,8 +48,9 @@ header {
 
 #logo {
     font-size: 27px;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', 'sans-serif';
     font-weight: 500;
+    color: #C21807;
     float: left;
     padding-left: 5px;
 }
@@ -80,12 +81,12 @@ a {
 .un:after {
     content: '';
     width: 0px;
-    height: 20px;
+    height: 15px;
     display: block;
     position: absolute;
     background: white;
     transition: 300ms;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 5px 5px 0;
     bottom: 20px;
 }
 

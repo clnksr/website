@@ -1,4 +1,4 @@
-.overalldiv {
+.boxes-container {
     height: 100%;
     display: flex;
     width: 70%;
@@ -7,26 +7,36 @@
 }
 
 .menubox {
-    width: 350px;
+    /* width: 350px; */
     height: 230px;
     margin: 60px 30px;
+    width: 85%;
+    font-size: 70px;
     display: block;
     color: white;
     text-transform: uppercase;
     position: relative;
+  
+
+   
 }
 
-.ideabox .menubox:hover {
-    /*    text-decoration: underline;*/
+.menubox--with-border {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
 }
 
-.ideabox {
+
+/* .ideabox {
     width: 50%;
-    font-size: 70px
+    font-size: 70px;
+    
 }
 
 .ideabox.right {
     float: left;
+   
 }
 
 .ideabox.left {
@@ -34,39 +44,44 @@
 }
 
 .menubox.top.right {
-    background-color: #E4D5C8;
-    font-family: 'Playfair', serif;
     font-weight: 400;
+    font-size: 70px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
 
-
-    font-size: 200px;
 }
 
 .menubox.middle.right {
-    background-color: #6e7376;
 
 }
 
 .menubox.bottom.right {
-    background-color: #eae6df;
-}
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
 
-.menubox.top.left {
-    background-image: url("../images/celine.png");
+} */
+
+.menubox--with-celine {
+    background-image: url(../images/celine.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: 160%;
+    background-position: -117px 3px;
+    background-color: hsl(22, 31%, 98%);
+    border-radius: 100%;
+    width: 230px;
+    box-shadow: 0 0 10px 11px hsl(22, 31%, 98%);
+    margin-left: auto;
+    margin-right: 66px;
 }
 
-.menubox.middle.left {
-    background-color: #B0B0B0;
 
-}
-
-.menubox.bottom.left {
-    background-color: #dbd4C1;
-
-}
+/* .menubox.bottom.left {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+} */
 
 .ideamenu.illustration {
     background-image: url(../images/branches.svg);
@@ -80,27 +95,4 @@
     bottom: -175px;
     right: 0px;
     position: absolute;
-}
-
-
-img.in-text {
-    width: 300px;
-    margin: 15px;
-
-    border-radius: 8px;
-    /* or with "%" like 3%, makes corners rounded */
-}
-
-/*
-.menulink:visited {
-    color: black;
-    opacity: 0.8;
-}*/
-
-.in-text.right {
-    float: right;
-}
-
-.in-text.left {
-    float: left;
 }

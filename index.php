@@ -16,17 +16,17 @@ $styles = [ "styles.css", "ideamenu.css" ]
 
     <!-- this is just a tag like a <div> (remember, everything is a div: <header>, <footer>, <div>, <span>, <article> ... -->
     <!-- but it's better for SEO (and for you) because it's easy to know what the content will be: Text-->
-    <div class="overalldiv">
-        <div class="ideabox left">
-            <a class="top left menubox celine" href="a.html"></a>
-            <a class="un middle left menubox" href="socialmedia.php">social media</a>
-            <a class="un bottom left menubox" href="#">some things</a>
+    <div class="boxes-container">
+        <div class="left">
+            <a class="menubox menubox--with-celine" href="a.html"></a>
+            <!-- <a class="un middle left menubox" href="socialmedia.php">social media</a> -->
+            <a class="un menubox menubox--with-border" href="#">some things</a>
         </div>
 
-        <div class="ideabox right">
-            <a class="un top right menubox" href="cv.php"> CV</a>
-            <a class="un middle right menubox" href="#">mood board</a>
-            <a class="un bottom right menubox" href="#hello">
+        <div class="right">
+            <a class="menubox menubox--with-border" href="cv.php">see resume</a>
+            <!-- <a class="un middle right menubox" href="#">mood board</a> -->
+            <a class="un menubox menubox--with-border" href="#hello">
                 <div class="ideamenu illustration"> </div>
                 more this
             </a>
